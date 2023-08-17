@@ -26,7 +26,7 @@ const ADMIN_CORS =
   process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001";
 
 // CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = process.env.STORE_CORS || "https://chronic-merch.vercel.app,/http:\/\/*/";
+const STORE_CORS = process.env.STORE_CORS || "https://merch.01ninjas.com,/http:\/\/*/";
 
 const DATABASE_URL =
   process.env.DATABASE_URL || "postgres://postgres:1994@localhost:5432/expresshike";
